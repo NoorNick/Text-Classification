@@ -4,7 +4,7 @@ This project demonstrates how to perform sentiment classification on text data u
 
 ---
 
-## 🚀 Features
+## Features
 
 - Converts raw text to numeric features using **TF-IDF**
 - Trains an SVM classifier with a **linear kernel** (ideal for text classification)
@@ -14,7 +14,7 @@ This project demonstrates how to perform sentiment classification on text data u
 
 ---
 
-## 📝 Dataset
+## Dataset
 
 A synthetic list of short movie reviews with manually labeled sentiments:
 
@@ -23,7 +23,7 @@ A synthetic list of short movie reviews with manually labeled sentiments:
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 ```text
               precision    recall  f1-score   support
@@ -38,7 +38,7 @@ weighted avg       0.90      0.88      0.88         8
 And a bar chart visualizing top positive and negative words based on their SVM coefficients.
 
 ---
-## 🛠️ How to Run
+## How to Run
 
 1. Clone the repository:
 ```
@@ -57,7 +57,7 @@ jupyter notebook
 Then open text_classification.ipynb and run all cells.
 
 ---
-## 📌 Techniques Used
+## Techniques Used
 - TF-IDF Vectorization for feature extraction
 
 - Support Vector Machine (SVC) for classification
@@ -67,7 +67,6 @@ Then open text_classification.ipynb and run all cells.
 - Interpretability through feature coefficient analysis
 
 ---
-Train smarter, classify better. 🧠📊
 
 
 
